@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#sign{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+
+.container{
+    width: 40%;
+    border: 5px solid rgb(145, 211, 153);
+    border-radius: 20px 0 20px 0;
+    padding: 20px 150px 20px 100px;
+    margin: 50px 0;
+}
+
+.container h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.container input{
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.container form button{
+    padding: 10px;
+    margin: 20px 5px 20px 0;
+}
+
+.container .switch{
+    display: block;
+    margin: 10px 0;
+}
+
+.container .switch button{
+    padding: 10px;
+    margin: 20px 10px;
+}
+
+input.up{
+    display: none;
+}
+
+.up{
+    display: none;
+}
